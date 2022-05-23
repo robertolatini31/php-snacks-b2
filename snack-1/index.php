@@ -56,7 +56,7 @@ $ads = [
         while ($control) :
             $active = rand(0 , count($ads) - 1);
             if($ads[$active]['is_active']) : ?>
-               <img src="<?= $ads[$active]['image_path']?>">
+               <img width="250" src="<?= $ads[$active]['image_path']?>">
                <p>
                    <a href="<?= $ads[$active]['link']?>">Acquista Qui!</a>
                </p>
